@@ -15,7 +15,6 @@ jobs:
       - uses: morethancertified/sprintctl-action@v1
         id: grading
         with:
-          api-key: ${{ secrets.CLOUDSPRINTS_API_KEY }}
           api-url: 'https://staging.cloudsprints.com'
           # Uncomment to enable GitHub App PR comments:
           # callback-url: 'https://cloudsprints.com/api/github/grading-result'

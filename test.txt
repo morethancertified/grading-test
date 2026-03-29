@@ -12,3 +12,4 @@ test-github-app
 test-github-app-callback
 test-callback-v2
 test-no-secret
+test

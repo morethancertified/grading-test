@@ -12,8 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: hashicorp/setup-terraform@v3
-
       - uses: cloudsprints/sprintctl-action@v1
         id: grading
         with:

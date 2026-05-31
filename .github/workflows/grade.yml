@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: morethancertified/sprintctl-action@v1
+      - uses: cloudsprints/sprintctl-action@v1
         id: grading
         with:
           api-url: 'https://staging.cloudsprints.com'

@@ -4,14 +4,14 @@
 ---
 # Standalone nginx Pod - The "wrong" way to deploy for scaling
 # Students will need to convert this to a Deployment to properly scale
-apiVersion: v1
+apiVersion: v2
 kind: Pod
 metadata:
   name: webapp
   labels:
     app: webapp
     tier: frontend
-    version: v1
+    version: v2
 spec:
   containers:
   - name: nginx
